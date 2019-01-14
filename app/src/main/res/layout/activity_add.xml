@@ -1,0 +1,64 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textSize="20dp"
+        android:id="@+id/name"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Rollno"
+            android:textSize="20dp"
+            android:id="@+id/rolno"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your admission no:"
+            android:textSize="20dp"
+            android:id="@+id/adno"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter your branch"
+            android:textSize="20dp"
+            android:id="@+id/branch"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="submit"
+            android:id="@+id/sub"
+            android:layout_gravity="center"/>
+
+           <!-- <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="cancel"
+            android:id="@+id/caln"
+                android:layout_marginLeft="20dp"/>-->
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:id="@+id/pb"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</LinearLayout>

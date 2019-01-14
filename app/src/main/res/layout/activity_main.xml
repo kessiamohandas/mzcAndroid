@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/custom"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/gradientbg">
+        
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/college"
+           android:textColor="@color/font"
+           android:textSize="25dp"
+           android:textAlignment="center"
+           android:textStyle="italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="20dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="USERNAME"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/email">
+        </EditText>
+
+        <EditText
+            android:drawableLeft="@drawable/ic_enhanced_encryption_black_24dp"
+            android:drawablePadding="20dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="PassWord"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/pass"
+            android:inputType="textPassword">
+        </EditText>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/loginbuttonstyle"
+            android:textColor="#640c9e"
+            android:id="@+id/loginb">
+        </Button>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
